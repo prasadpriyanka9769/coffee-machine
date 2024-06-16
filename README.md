@@ -15,8 +15,8 @@ MENU = {
             "coffee": 24,
         },
         "cost": 2.5,
-    },
-    "cappuccino": {
+    }
+    "cold coffee": {
         "ingredients": {
             "water": 250,
             "milk": 100,
@@ -87,3 +87,4 @@ while is_on:
             payment = process_coin()
             if calculate_money(payment, drink["cost"]):
                 make_coffee(drink_name, drink["ingredients"])
+
